@@ -13,3 +13,5 @@
 	
 	-Para adicionar uma variável, adiciona-se no "trás" e para remover, remove o índice do "frente" e após isso, arrastar os outros índices em uma posição a menos, o que representa um custo alto.
 	-Por outro lado, para dar a prioridade para a próxima posição, é possível apenas passar a a frente 1+.
+	-Se frente = trás, não há nenhum índice na fila.
+	-For começando na frente e terminando no trás. Enquando (i != trás, i = (i+1) % tam)

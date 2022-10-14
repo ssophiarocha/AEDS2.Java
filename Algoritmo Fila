@@ -1,0 +1,15 @@
+## Algoritmo fila
+
+	-Atendimento bancário
+	-Sistemas operacionais para regular a ordem de tarefas
+
+	**Filas e vetores: controle de quem está na fila e quem não está.
+	
+	**Qual a problemática?
+	Se o programa cresce, pode faltar espaço. Trabalhar com valores pré definido em filas, ou seja, vetores não é uma boa ideia
+	
+## Apontadores
+  -São chamados de "sentinelas", marcando o começo da fila e onde é o fim.
+	
+	-Para adicionar uma variável, adiciona-se no "trás" e para remover, remove o índice do "frente" e após isso, arrastar os outros índices em uma posição a menos, o que representa um custo alto.
+	-Por outro lado, para dar a prioridade para a próxima posição, é possível apenas passar a a frente 1+.
